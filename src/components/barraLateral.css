@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------- COLORS ------------------------*/
+
+:root {
+    --white: #fff;
+    --black-500: #000;
+
+    --gray-400: #22212C;
+    --gray-300: #302F3D;
+    --gray-100: #837E9F;
+    
+    --pink-200: #CB92B1;
+}
+
+/* --------------- SIDEBAR ------------------------*/
+
+.sidebar {
+    position: relative;
+
+    width: 1440px /*90rem*/;
+    height: 1767px /*110.43rem*/;
+
+    background: var(--gray-400);
+
+    font-family: 'Merriweather Sans';
+}
+
+/* --------------- USER PROFILE ------------------------*/
+
+.profile {
+    position: relative;
+
+    background: var(--gray-300);
+
+    top: 40px/*2.5rem;*/;
+    left: 40px/*2.5rem*/;
+    width: 348px/*21.75rem*/;
+    height: 292px /*18.25rem*/;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px var(--black-500);
+}
+
+.photoAuthor{
+    position: absolute;
+
+    width: 128px /*8rem*/;
+    height: 128px /*8rem*/;
+
+    margin-bottom: 100px;
+    
+    border-radius: 50% 50%;
+    border: 2px solid rgb(243, 196, 23);
+}
+
+.profile h3 {
+    width: auto;
+    height: auto;
+
+    margin-top: 100px;
+
+    font-family: Verdana;
+    font-size: 23px;
+
+    color: var(--gray-100);
+}
+
+.profile span {
+    position: absolute;
+
+    width: auto;
+    height: auto;
+
+    top: 70px;
+    margin-top: 150px;
+
+    color: var(--gray-100);
+}
+
+/* --------------- LINKS FOR CONTACTS ---------------------*/
+
+.links {
+    position: absolute;
+
+    background: var(--gray-300);
+
+    width: 348px;
+    height: 348px;
+    left: 40px;
+    top: 362px;
+
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px var(--black-500);
+}
+
+.links ul li {
+
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+
+    margin: 22px;
+    margin-left: 40px;
+    padding: 2px;
+    
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--gray-100)
+}
+
+.icons {
+    margin-right: 15px;
+    color: var(--gray-100);
+    font-size: 20px;
+}
+
+/* --------------- TECNOLOGIES ------------------------*/
+
+.tecnologies {
+    position: absolute;
+
+    background: var(--gray-300);
+
+    width: 348px;
+    height: 208px;
+    left: 40px;
+    top: 740px;
+
+    border-radius: 20px;
+    
+    box-shadow: 2px 2px 5px var(--black-500);
+}
+
+h3 {
+
+    width: 121px;
+    height: 26px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+    line-height: 25px;
+    font-size: 20px;
+    color: var(--gray-100);
+}
+
+.techMain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+
+    margin: 25px;
+    margin-top: 20px;
+}
+
+.techs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 86px;
+    height: 24px;
+
+    background: var(--pink-200);
+
+    border-radius: 10px;
+}
+
+.techs p {
+
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* --------------- EXPERIENCES ------------------------*/
+
+.experiences {
+    position: absolute;
+
+    background: var(--gray-300);
+
+    width: 348px;
+    height: 349px;
+
+    top: 978px;
+    left: 40px;
+
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px var(--black-500);
+}
+
+.list {
+    color: var(--gray-100);
+    margin-left: 60px;
+}
+
+.experiences li {
+    margin-top: 12px;
+}
+
+.experiences span {
+    font-size: 12px;
+}
+
+/* --------------- EDUCATION ------------------------*/
+
+.education {
+    position: absolute;
+
+    width: 348px;
+    height: 352px;
+
+    top: 1357px;
+    left: 40px;
+
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px var(--black-500);
+
+    background: var(--gray-300);
+}
+
+.education li {
+    margin-top: 12px;
+}
+
+.education span {
+    font-size: 12px;
+}
+
+
